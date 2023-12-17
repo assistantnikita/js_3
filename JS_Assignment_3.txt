@@ -1,0 +1,110 @@
+Day3 JavaScript:
+
+ques 1) Write the Code for all Data types.
+   
+          1)  Number 
+          2)  String
+          3) Undefined
+          4) Null
+          5) Boolean
+
+ 1)  Number :- Contains all numerical numbers. 
+         let a=45;
+         let b=89;
+         let c= a+b;
+      console.log(c);//134
+
+2) String :- Set of character which must have single or double quotes.
+     let x="Nikita"
+     let y="Patil";
+     let z=x+y;
+    console.log(z);//Nikita Patil
+
+3) Undefined :- Variables are declared but not assign any values or intialize. 
+        var d;// it doesn't return any thing else only store or take space into the memory.
+       console.log(d);// Undefined
+
+4) Null :- When any value assign as a null.
+      var f=null;
+  console.log(f);//Null
+
+5) Boolean :- In this, all values are in 0 or 1 form i.e. true or false respectively.
+  var bool=false;
+  console.log(bool);//false
+ typeof bool;
+ 'Boolean'
+
+typeof  operator is used to get which type of data type is here used.
+
+
+Ques 2) What are the uses of JavaScript Operators?
+     Operators: - Operators in js are the symbols that peroform operations on variables and their values.
+                       - Opreands are used to perform operations in javascript.
+                       - They allow you to manipulate and work with data in various ways.
+1) Arithematics Operator
+2) Assignment Operator
+3) Logical Operator
+4) Comparision Operator
+
+
+Ques 3) Explain the Assignment Operator.
+ans.. - It is used to assign a value to a variable.
+        - It take value on right hand side and stores it in the variable on its left hand side.
+         - Right hand side is perform firstly.
+         - Symbol of assignment operator is"=".
+let variable = value;
+
+let a=10;
+let b="hello";
+    if(a==b)
+    {
+   console.log("a is equal to b");
+} else
+  { console.log("not equal and b");
+}
+
+
+Ques 4) Explain the all Arithmetic Operators.
+ans.. Arithmtic operator are the +,-,*,**,%,/ 
+let a=10;
+let b=3;
+  let sum=a+b;
+     console.log(sum);//13
+ let differenece=a-b;
+    console.log(difference);//7
+ let product=a*b;
+    console.log(product);//30
+ let mod=a % b;
+    console.log(difference);//1
+ let exponential=a**b;
+    console.logexponential);//1000
+let div=a/b;
+ console.log(div);//3.3
+
+
+Ques 5) What are the Binary Operators in js.
+ans... -  Binary Operator are that operator on two oprands.
+         - Binary Operator atleast have two oprands to perform operations.
+         - They perform arithmatic, comparision, assignment, logical operations.
+ 
+
+Ques 6) Explain the Pre-Increment and Post Increment in js.
+ans.. - pre-inccrement:- symbol is "++variable".
+         - the variable is increased by 1 before it cuurent value used in this expression.
+       -   fisrt increase then use.
+
+ex= let num=5;
+        let res=++num;
+    console.log(num);//6
+console.log(res);//6
+
+ - post-inccrement:- symbol is "variable++".
+         -  the current value of the variable is used in an expression, and then the variable is increased by 1.
+       -   fisrt use then update.
+
+ex= let num=5;
+        let res=num++;
+    console.log(num);//6
+console.log(res);//5
+
+
